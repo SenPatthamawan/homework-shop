@@ -191,5 +191,37 @@
     object-fit: cover;
   } 
 
+.product-nav {
+    display: flex;
+}
 
+.product-category {
+    flex: 1;
+    align-items: center;
+}
 
+.product-filter {
+    width: 200px;
+    align-items: center;
+}
+
+.product-sort {
+    width: 200px;
+    align-items: center;
+}
+
+.product-category-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #6f2961;
+    padding: 15px;
+}
+
+.sort-by-name , .filter-by-name {
+    color: gray;
+}
+
+select {
+    border-radius: 50px;
+    padding: 3px;;
+}

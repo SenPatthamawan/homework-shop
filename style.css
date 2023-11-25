@@ -16,6 +16,11 @@
 .app__header {
     background: #d6c5d3;
     height: 64px;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
 }
 
 .app__content {
@@ -27,3 +32,13 @@
     background: #d6c5d3;
     height: 64px;
 }
+
+.app_header_input {
+    flex: 1;
+    padding: 6px;
+}
+
+.app_header_button {
+    padding: 6px;
+}
+

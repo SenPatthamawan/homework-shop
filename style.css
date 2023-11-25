@@ -42,3 +42,20 @@
     padding: 6px;
 }
 
+.nav-block {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.nav-child {
+    background: #6f2961;
+    color: white;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    padding: 2px;
+}
+
